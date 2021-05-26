@@ -1,21 +1,21 @@
 variable "resource_group_name" {
-  type = "string"
+  type = string
 }
 
 variable "resouce_group_location" {
-  type = "string"
+  type = string
 }
 
 variable "consistency_level" {
-  type = "string"
+  type = string
   default = "Eventual"
 }
 
 variable "failover_location" {
-  type = "string"
+  type = string
 }
 
 variable "cosmos_db_name" {
-  type = "string"
+  type = string
 }
 
