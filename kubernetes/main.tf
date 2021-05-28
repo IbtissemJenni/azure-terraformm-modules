@@ -25,7 +25,9 @@ resource "azurerm_kubernetes_cluster" "kubernetes_cluster" {
   resource_group_name = "${var.resource_group_name}"
   dns_prefix          = "${var.dns_prefix}"
 
-  agent_pool_profile {
+  
+
+  default_node_pool {
     name            = "default"
     count           = "${var.vm_count}"
     vm_size         = "${var.vm_size}"
