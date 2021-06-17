@@ -27,7 +27,7 @@ resource "azurerm_kubernetes_cluster" "kubernetes_cluster" {
 
   default_node_pool {
     name            = "default"
-    count           = "${var.vm_count}"
+    node_count      = "${var.vm_count}"
     vm_size         = "${var.vm_size}"
     os_type         = "${var.os_type}"
     os_disk_size_gb = "${var.os_disk_size_gb}"
