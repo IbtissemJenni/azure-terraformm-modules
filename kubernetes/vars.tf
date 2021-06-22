@@ -77,7 +77,7 @@ variable "client_secret" {
 }
 
 variable "vm_size" {
-  default="Standard_D2_v2"
+  default="Standard_DS1_v2"
   type = string
 }
 
