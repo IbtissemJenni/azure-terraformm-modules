@@ -49,8 +49,8 @@ resource "azurerm_log_analytics_workspace" "analytics_workspace" {
   name                = "${var.kubernetes_cluster_name}-analytics"
   location            = "${var. resouce_group_location}"
   resource_group_name = "${var.resource_group_name}"
-  sku                 = "${var.analytics_sku}"
-  retention_in_days   = "${var.retention_in_days}"
+  //sku                 = "${var.analytics_sku}"
+  //retention_in_days   = "${var.retention_in_days}"
 }
 
 resource "azurerm_log_analytics_solution" "analytics_solution" {

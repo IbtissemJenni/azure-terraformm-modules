@@ -96,7 +96,7 @@ variable "os_type" {
   type = string
 }*/
 
-variable "analytics_sku" {
+/*variable "analytics_sku" {
   default = "Free"
   type = string
 }
@@ -104,7 +104,7 @@ variable "analytics_sku" {
 variable "retention_in_days" {
   default = "7"
   type = string
-}
+}*/
 
 
 
