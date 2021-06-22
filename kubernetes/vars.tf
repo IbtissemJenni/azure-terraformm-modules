@@ -56,7 +56,7 @@ variable "resource_group_name" {
 }
 
 variable "resouce_group_location" {
-    default = "Central US"
+    default = "westeurope"
 }
 
 
