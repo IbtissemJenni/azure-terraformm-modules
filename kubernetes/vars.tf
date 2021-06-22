@@ -77,12 +77,12 @@ variable "client_secret" {
 }
 
 variable "vm_size" {
-  default="Standard_DS1_v2"
+  default="Standard_D2_v2"
   type = string
 }
 
 variable "vm_count" {
-  default = 3
+  default = 2
   type = string
 }
 
@@ -96,15 +96,16 @@ variable "os_type" {
   type = string
 }*/
 
-/*variable "analytics_sku" {
-  default = "Free"
+variable "analytics_sku" {
+  default = "PerGB2018"
   type = string
+  
 }
 
 variable "retention_in_days" {
-  default = "7"
+  default = "30"
   type = string
-}*/
+}
 
 
 
